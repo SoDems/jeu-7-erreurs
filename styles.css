@@ -1,0 +1,13 @@
+#original img{
+    width: 98%;
+}
+#erreurs img{
+    width: 98%;
+}
+#cliquer{
+    display: flex;
+
+} 
+#differences img{
+    opacity: 1;
+}
