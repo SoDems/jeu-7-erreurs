@@ -1,21 +1,26 @@
 const divOriginal = document.getElementById('original');
 const divErreurs = document.getElementById('erreurs');
 const divDifferences = document.getElementById('differences');
+
+console.log(divErreurs)
+var imgOriginal = document.createElement('img');
+imgOriginal.src = "original.png";
+
+var imgErreur = document.createElement('img');
+imgErreur.src = "falsifier.png";
+imgErreur.id="photo-erreur";
+
+var borneImg = document.createElement('img');
+borneImg.src = "./photos differences/borne-poste";
+borneImg.id="borne";
+
+divOriginal.appendChild(imgOriginal);
+divErreurs.appendChild(imgErreur);
+divErreurs.appendChild(borneImg);
+
 const borne = document.getElementById('borne');
 
-var img = document.createElement('img');
-img.src = "original.png";
-var imgs = document.createElement('img');
-imgs.src = "falsifier.png";
-
-
-
-divOriginal.appendChild(img);
-divErreurs.appendChild(imgs);
-
-borne.addEventListener ('click' ,   function(){
-    borne.style.opacity = "0";
-
-
+borne.addEventListener ('click', function(){
+    borne.style.opacity = "1";
 })
 

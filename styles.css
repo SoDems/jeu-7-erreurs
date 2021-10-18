@@ -1,13 +1,45 @@
-#original img{
-    width: 98%;
-}
-#erreurs img{
-    width: 98%;
-}
 #cliquer{
+    width: 100vw;
     display: flex;
-
-} 
-#differences img{
-    opacity: 1;
 }
+#original{
+    width: 48%;
+    margin-right: 2%;
+}
+#erreurs{
+    width: 48%;
+    position: relative;
+}
+#original img{
+    width: 100%;
+}
+#photo-erreur{
+    width: 100%;
+}
+#borne{
+    position: absolute;
+    top: 69%;
+    left: 71%;
+    opacity: 0;
+}
+
+
+/* #satellite{
+    position: absolute;
+   
+}
+#climatiseur{
+    position: absolute;
+    
+}
+#voiture{
+    position: absolute;
+}
+#fenetre{
+    position: absolute;
+
+}
+#marge{
+    position: absolute;
+} */
+
